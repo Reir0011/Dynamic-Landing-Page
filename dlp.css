@@ -1,0 +1,54 @@
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+ body{
+     font-family:'Times New Roman', Times, serif;
+     display: flex;
+     flex-direction:column;
+     align-items: center;
+     justify-content: center;
+     height:100vh;
+     color:black;
+     text-align: center;
+ }
+
+ #time{
+     font-size:7rem;
+ }
+
+ h1{
+     margin-bottom:3rem;
+ }
+
+ h2{
+     margin-bottom:0.5rem;
+     opacity:0.6;
+ }
+
+ @media(max-width:700px){
+     #time{
+         font-size:6rem;
+     }
+ }
+
+ @media(max-width:400px){
+    #time{
+        font-size:3rem;
+    }
+
+    h1{
+        font-size:25px;
+    }
+
+    h2{
+        font-size:18px;
+    }
+}
+
+
+img{
+    background-size:cover;
+}
